@@ -7,7 +7,7 @@ class Result extends Component {
 		var {result} = this.props;
 		var compositionList = result.composition.map( (amount, i) => {
 			return amount ? 
-				<li key={i.toString()}>{FRACTIONS[i] + " : " + amount}</li> :
+				<li key={i.toString()}>{`Rp ${FRACTIONS[i]}  : ${amount}x`}</li> :
 				null;
 		});
 		return (
