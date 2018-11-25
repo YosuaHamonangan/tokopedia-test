@@ -13,9 +13,11 @@ class Result extends Component {
 		return (
 			<div className="container result-box">
 				<h1 className="title">Result</h1>
-				Money Needed: 
-				<ul>{compositionList}</ul>
-				{result.remainder ? "The remainder is " + result.remainder : null}
+				<p>
+					Money Needed: 
+					<ul>{compositionList}</ul>
+					{result.remainder ? "The remainder is " + result.remainder : null}
+				</p>
 			</div>
 		);
 	}

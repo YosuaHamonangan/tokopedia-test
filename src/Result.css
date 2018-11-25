@@ -1,3 +1,7 @@
 .result-box{
   	text-align: left;
 }
+
+.result-box p{
+	font-size: calc(7px + 1.3vmin);
+}

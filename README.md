@@ -5,3 +5,6 @@ To run this application, do the following:
 - run "npm install" for first run
 - run "npm start"
 - open localhost:3000
+
+For live preview, go to:
+https://tokoped-test.herokuapp.com/
